@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+li{
+    font: 1.3rem;
+    background-color:#b4d2e4;
+    border-bottom: black;
+    box-shadow: black;
+}
+li:nth-last-of-type(odd){
+    background-color: darkcyan;
+}
+.messages{
+    overflow-y: scroll;
+    height: 500px;
+    bottom: 0;
+    text-align: left;
+    border: 1px solid lightslategrey;
+    
+}
+.lmessage{
+  
+  border-bottom: 1px solid black;
+  text-decoration-line: none;
+}
+#msg{
+    text-decoration-line: none;
+}
